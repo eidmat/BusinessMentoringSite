@@ -1,0 +1,76 @@
+@import '/src/app/app.component.scss';
+
+@font-face {
+    font-family: "amble-regular";
+    src: local("amble-regular"), url(./assets/fonts/Amble-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "amble-bold";
+    src: local("amble-bold"), url(./assets/fonts/Amble-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "amble-light";
+    src: local("amble-light"), url(./assets/fonts/Amble-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "archivonarrow-regular";
+    src: local("archivonarrow-regular"), url(./assets/fonts/ArchivoNarrow-Regular.otf) format("truetype");
+}
+
+.button {
+    float: left;
+    margin-top: 4rem;
+    width: 40rem;
+    height: 8rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #c0c0c0;
+
+    &__top-text {
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+    }
+
+    &__bottom-text {
+        font-size: 1.2rem;
+    }
+}
+.section {
+    &__header {
+        width: 100rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+
+        &-icon {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &-top {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+            padding-left: 1rem;
+            font-family: 'amble-bold';
+            font-size: 4rem;
+        }
+
+        &-bottom {
+            padding-bottom: 2rem;
+            font-family: 'amble-light';
+            font-size: 2rem;
+            text-align: center;
+            width: 75rem;
+        }
+
+        &-separator {
+            margin-bottom: 4rem;
+            border-bottom: 0.4rem solid;
+            border-color: #FFC300;
+            width: 20rem;
+        }
+    }
+}

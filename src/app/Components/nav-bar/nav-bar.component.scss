@@ -1,0 +1,33 @@
+.nav-bar {
+    background-color: rgb(65, 71, 77);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+    &__logo {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Courier New', Courier, monospace;
+        width: 30rem;
+        padding-top: 1rem;
+        height: 3rem;
+    }
+
+    &__text {
+        color: rgb(180, 180, 180);
+        font-size: 1.6rem;
+        font-family: 'Russo One';
+        display: flex;
+    }
+}

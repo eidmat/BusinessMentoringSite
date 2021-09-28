@@ -1,0 +1,25 @@
+.header {
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: lighter;
+    text-align: center;
+
+    &__top-text {
+        color: #708090;
+        font-weight: lighter;
+        font-family: 'amble-regular';
+        font-size: 1.4rem;
+        padding-bottom: 2rem;
+    }
+
+    &__bottom-text {
+        font-weight: 100;
+        font-family: 'amble-bold';
+        font-size: 3.4rem;
+    }
+}
