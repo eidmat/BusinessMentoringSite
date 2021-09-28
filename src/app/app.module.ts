@@ -10,7 +10,8 @@ import { HeaderComponent } from './Components/header/header.component';
 import { IntroductionComponent } from './Components/introduction/introduction.component';
 import { FirstSectionComponent } from './Components/first-section/first-section.component';
 import { SecondSectionComponent } from './Components/second-section/second-section.component';
-import { ThirdSectionComponent } from './Components/third-section/third-section.component'
+import { ThirdSectionComponent } from './Components/third-section/third-section.component';
+import { FourthSectionComponent } from './Components/fourth-section/fourth-section.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ThirdSectionComponent } from './Components/third-section/third-section.
     IntroductionComponent,
     FirstSectionComponent,
     SecondSectionComponent,
-    ThirdSectionComponent
+    ThirdSectionComponent,
+    FourthSectionComponent
   ],
   imports: [
     BrowserModule,

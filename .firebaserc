@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "businessmentoringsite"
+    "angularapp": "businessmentoringsite"
+  },
+  "targets": {
+    "businessmentoringsite": {
+      "hosting": {
+        "BusinessMentoringSite": [
+          "businessmentoringsite"
+        ]
+      }
+    }
   }
 }
